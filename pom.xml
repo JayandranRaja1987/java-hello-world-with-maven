@@ -48,4 +48,11 @@
             </plugin>
         </plugins>
     </build>
+    <distributionManagement>
+       <repository>
+         <id>internal.repo</id>
+         <name>Internal repo</name>
+         <url>https://github.com/JayandranRaja1987/java-hello-world-with-maven</url>
+       </repository>
+   </distributionManagement>
 </project>
